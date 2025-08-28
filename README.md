@@ -213,7 +213,7 @@ Authorization: Bearer <jwt_token>
 - Appointment cancellation workflow
 - Data consistency verification
 - Edge case handling
-
+```
 
 
 
