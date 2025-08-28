@@ -270,7 +270,7 @@ describe("College Appointment System E2E Test", () => {
     console.log(" Student A2 still has their scheduled appointment");
 
     console.log(
-      "🎉 E2E Test completed successfully! All user flow steps passed."
+      " E2E Test completed successfully! All user flow steps passed."
     );
   });
 
