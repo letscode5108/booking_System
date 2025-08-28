@@ -25,12 +25,6 @@ mongoose
 
 
 
-
-
-
-
-
-
 app.use("/api/auth", authRoutes);
 app.use("/api/professor", professorRoutes);
 app.use("/api/student", studentRoutes);
