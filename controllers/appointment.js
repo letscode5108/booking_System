@@ -119,7 +119,7 @@ const cancelAppointment = async (req, res) => {
       return res.status(404).json({ message: "Appointment not found" });
     }
          const isAuthorized =
-      appointment.student._id.toString() === req.user._id.toString();
+           appointment.professor._id.toString() === req.user._id.toString();
 
     if (!isAuthorized) {
       await session.abortTransaction();
